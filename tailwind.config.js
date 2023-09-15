@@ -3,7 +3,7 @@ module.exports = {
   important: true,
   prefix: "",
   darkMode: "class",
-  content: ["./App.{js,jsx,ts,tsx}", "./components/**/**.{js,jsx,ts,tsx}"],
+  content: ["./App.{js,jsx,ts,tsx}", "./src/**/**/**.{js,jsx,ts,tsx}"],
   mode: "jit",
   theme: {
     extend: {
